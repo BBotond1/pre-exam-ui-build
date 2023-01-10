@@ -63,7 +63,12 @@ const beerComp = function (number, title, sub, text){
       <div class="title">${title}</div>
       <div class="sub">${sub}</div>
       <div class="text">${text}</div>
-      <button>details</button>
+      <button>
+				<div class="button-text">details</div>
+				<div class="arrow">
+				  <span class="material-icons md-36"> arrow_forward </span>
+				</div>
+			</button>
     </div>
     `
 } 
